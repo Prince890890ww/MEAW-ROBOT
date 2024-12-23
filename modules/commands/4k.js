@@ -45,7 +45,7 @@ module.exports.config = {
     api.sendMessage({
       body: `
       ✅ | Successfully Enhanced Your Image...
-      🔰 | Author: 𝑴𝑹. 𝑨𝒀𝑨𝑵 👑🪽 
+      🔰 | Author: Sujon Be'vies
       ☂ | Download Link: ${ShortUrl}`,
       attachment: createReadStream(path)
     }, threadID, () => unlinkSync(path), messageID);
