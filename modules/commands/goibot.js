@@ -21,15 +21,15 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "owner k")) {
-     return api.sendMessage("️ AYAN Chowdhury", threadID, messageID);
+     return api.sendMessage("️ SUJON BE'VIES", threadID, messageID);
    };
    
-  if ((event.body.toLowerCase() == "bat suno") || (event.body.toLowerCase() == "bat sun")) {
+  if ((event.body.toLowerCase() == "bot suno") || (event.body.toLowerCase() == "bot sun")) {
      return api.sendMessage("হুম বলেন!!🫰", threadID, messageID);
    };
   
 if ((event.body.toLowerCase() == " bot love you") || (event.body.toLowerCase() == "i love you")) {
-     return api.sendMessage("️LoVe You Unlimited Jnu😘😁", threadID, messageID);
+     return api.sendMessage("️LoVe You Unlimited xnu😘😁", threadID, messageID);
    };
    
    if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello")) {
@@ -76,7 +76,7 @@ if ((event.body.toLowerCase() == " bot love you") || (event.body.toLowerCase() =
    };
    
    if ((event.body.toLowerCase() == "bot kar") || (event.body.toLowerCase() == "bot kar ata")) {
-     return api.sendMessage("আয়ান বস আমাকে বানাইছে-!!👀", threadID, messageID);
+     return api.sendMessage("SUJON boss amake banaiche-!!👀", threadID, messageID);
       };
   if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0)) {
     var msg = {
